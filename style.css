@@ -1,0 +1,81 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0 0 0 5px;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+    padding: 60px 40px;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+}
+
+.header p{
+    color: #00DD00;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.menu{
+    text-align: center;
+    background-color: #00DD00;
+    padding: 10px;
+}
+
+.logo{
+    position: relative;
+    width: 200px;
+}
+
+.device{
+    margin-top: 20px;
+}
+
+.device .title label{
+    font-size: 20px;
+}
+
+.address-info .address, .address-info .distance{
+    display: inline-block;
+}
+
+.charging p{
+    margin-bottom: 5px;
+}
+
+.charging .charging-bar{
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: green;
+}
+
+#device1.middle .charging .charging-bar{
+    width: 40%;
+    background-color: #F5B453;
+}
+
+#device2.good .charging .charging-bar{
+    width: 60%;
+    background-color: #00DD00;
+}
+
+#device3.low .charging .charging-bar{
+    width: 20%;
+    background-color: #BE4141;
+}
